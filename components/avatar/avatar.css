@@ -1,0 +1,32 @@
+@import url(../shared.css);
+
+
+.avatar{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.xs{
+     width: 16px;
+    height: 16px;
+}
+
+.sm{
+     width: 24px;
+    height: 24px;
+}
+
+.lg{
+     width: 48px;
+    height: 48px;
+}
+
+.xl{
+     width: 64px;
+    height: 64px;
+}
+
+.square{
+    border-radius: 2%;
+}
