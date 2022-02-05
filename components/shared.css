@@ -1,0 +1,33 @@
+:root{
+--avatar-background:#f5f7f9;
+--border:rgb(185, 180, 180);
+
+}
+
+.container{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;  
+}
+
+
+.outer-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--avatar-background);
+    border-radius: 10px;
+    border: 1px solid var(--border);
+    padding: 20px 40px;
+}
+
+img{
+    margin-left: 10px;
+}
+
+h3{
+    font-weight: bolder;
+}
