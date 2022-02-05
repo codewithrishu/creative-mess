@@ -1,2 +1,0 @@
-# creative-mess
- component library
