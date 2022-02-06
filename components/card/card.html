@@ -1,14 +1,300 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- font family -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 
-    
-    <title>card</title>
+        <!-- font-icons -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+        <!-- highlight js -->
+        <link rel="stylesheet" href="../../highlight/styles/a11y-dark.min.css">
+        <script src="../../highlight/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script>
+
+        <!--css file -->
+        <link rel="stylesheet" href="card.css">
+        <title>Cards</title>
 </head>
+
 <body>
+    <div class="container">
+        <div class="text-only-card">
+            <h3>Text Only Card</h3>
+            <p>This card contains only title and descripton. To use this card add 'card' class followed by
+                'card-title' and 'card-text' class
+            </p>
+            <div class="outer-box">
+                <div class="card">
+                    <div class="card-title">
+                        Heading
+                    </div>
+                    <div class="card-text">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur porro eveniet quasi reiciendis tempore, ab
+                        dolores at earum
+                    </div>
+                </div>
+            </div>
+            <div class="code-box">
+                <pre>
+                        <code class="language-html"> 
+                        &lt;div class="alert primary"&gt;             
+                            This is Primary alert!
+                        &lt;/div&gt;
+
+                        &lt;div class="card"&gt; 
+                            &lt;div class="card-title"&gt; 
+                                Heading
+                            &lt;/div&gt; 
+                            &lt;div class="card-text"&gt; 
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur porro eveniet quasi reiciendis tempore, ab
+                                dolores at earum
+                            &lt;/div&gt; 
+                        </div>
+                        </code>
+                        </pre>
+            </div>
+        </div>
+
+        <div class="card-with-badge">
+            <h3>Text Only Card</h3>
+            <p>Simple alert can be created by adding alert class, followed by color varient</p>
+            <div class="outer-box">
+                <div class="card badge-card">
+                    <div class="card-badge">
+                        New Arrivale
+                    </div>
+                    <div class="card-image">
+                        <img class="image" src="images/mont-marte-woodless-charcoal-pencils-signature-3pce-mpn0045.jpg" alt="">
+                    </div>
+                    <div class="card-title">
+                        Heading
+                    </div>
+                    <div class="card-text">
+                        This is product
+                    </div>
+                    <div class="price">
+                        <div class="discounted-price">
+                            Rs.250
+                        </div>
+                        <div class="actual-price">
+                            <s>Rs.300</s>
+                        </div>
+                        <div class="discount">
+                            (10%)
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <button class="add-cart-button">Add To Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="code-box">
+                <pre>
+                                <!-- <code class="language-html"> 
+                                &lt;div class="alert primary"&gt;             
+                                    This is Primary alert!
+                                &lt;/div&gt;
+        
+                                &lt;div class="alert error"&gt;
+                                    This is Error alert!
+                                &lt;/div&gt;
+        
+                                &lt;div class="alert success"&gt;
+                                    This is Success alert!
+                                &lt;/div&gt;
+        
+                                &lt;div class="alert warning"&gt;
+                                    This is Warning alert!
+                                &lt;/div&gt;
+                                </code> -->
+                                </pre>
+            </div>
+        </div>
+
+
+        <div class="card-with-Dismiss">
+            <h3>Dismiss Card</h3>
+            <p>Simple alert can be created by adding alert class, followed by color varient</p>
+            <div class="outer-box">
+                <div class="card">
+                    <div class="dismiss-icon">
+                        <span class="material-icons">
+                            close
+                        </span>
+                    </div>
+                    <div class="card-image">
+                        <img class="image" src="images/mont-marte-woodless-charcoal-pencils-signature-3pce-mpn0045.jpg" alt="">
+                    </div>
+                    <div class="card-title">
+                        Heading
+                    </div>
+                    <div class="card-text">
+                        This is product
+                    </div>
+                    <div class="price">
+                        <div class="discounted-price">
+                            Rs.250
+                        </div>
+                        <div class="actual-price">
+                            <s>Rs.300</s>
+                        </div>
+                        <div class="discount">
+                            (10%)
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <button class="add-cart-button">Add To Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="code-box">
+                <pre>
+                                        <!-- <code class="language-html"> 
+                                        &lt;div class="alert primary"&gt;             
+                                            This is Primary alert!
+                                        &lt;/div&gt;
+                
+                                        &lt;div class="alert error"&gt;
+                                            This is Error alert!
+                                        &lt;/div&gt;
+                
+                                        &lt;div class="alert success"&gt;
+                                            This is Success alert!
+                                        &lt;/div&gt;
+                
+                                        &lt;div class="alert warning"&gt;
+                                            This is Warning alert!
+                                        &lt;/div&gt;
+                                        </code> -->
+                                        </pre>
+            </div>
+        </div>
+
+
+        <div class="card-with-TextOverlay">
+            <h3>Dismiss Card</h3>
+            <p>Simple alert can be created by adding alert class, followed by color varient</p>
+            <div class="outer-box">
+                <div class="card">
+                
+                    <div class="card-image">
+                        <img class="image" src="images/Acrylic-Product-Paint-Colors-Acrylique-Art-Supplies-High-Quality-Popular-Acrylic-Paint-with-Different-Package-Acrylic-Paint.jpg" alt="">
+                        <div class="overlay-body">
+                            <div class="card-title">
+                                Heading
+                            </div>
+                            <div class="card-text">
+                                This is product
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="price">
+                        <div class="discounted-price">
+                            Rs.250
+                        </div>
+                        <div class="actual-price">
+                            <s>Rs.300</s>
+                        </div>
+                        <div class="discount">
+                            (10%)
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <button class="add-cart-button">Add To Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="code-box">
+                <pre>
+                                                <!-- <code class="language-html"> 
+                                                &lt;div class="alert primary"&gt;             
+                                                    This is Primary alert!
+                                                &lt;/div&gt;
+                        
+                                                &lt;div class="alert error"&gt;
+                                                    This is Error alert!
+                                                &lt;/div&gt;
+                        
+                                                &lt;div class="alert success"&gt;
+                                                    This is Success alert!
+                                                &lt;/div&gt;
+                        
+                                                &lt;div class="alert warning"&gt;
+                                                    This is Warning alert!
+                                                &lt;/div&gt;
+                                                </code> -->
+                                                </pre>
+            </div>
+        </div>
+
+        <div class="horizontal-card">
+            <h3>horizontal Card</h3>
+            <p>Simple alert can be created by adding alert class, followed by color varient</p>
+            <div class="outer-box">
+                <div class="card">
+                    <div class="left-part">
+                        <div class="card-image">
+                            <img class="image" src="images/Acrylic-Product-Paint-Colors-Acrylique-Art-Supplies-High-Quality-Popular-Acrylic-Paint-with-Different-Package-Acrylic-Paint.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="right-part">
+                        <div class="card-title">
+                            Heading
+                        </div>
+                        <div class="card-text">
+                            This is product
+                        </div>
+                        <div class="price">
+                            <div class="discounted-price">
+                                Rs.250
+                            </div>
+                            <div class="actual-price">
+                                <s>Rs.300</s>
+                            </div>
+                            <div class="discount">
+                                (10%)
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <button class="add-cart-button">Add To Cart</button>
+                            <button class="add-cart-button">Add To Wishlist</button>
+                        </div>
+                    </div>
+
+                    
+                </div>
+            </div>
+            <div class="code-box">
+                <pre>
+                                                <!-- <code class="language-html"> 
+                                                &lt;div class="alert primary"&gt;             
+                                                    This is Primary alert!
+                                                &lt;/div&gt;
+                        
+                                                &lt;div class="alert error"&gt;
+                                                    This is Error alert!
+                                                &lt;/div&gt;
+                        
+                                                &lt;div class="alert success"&gt;
+                                                    This is Success alert!
+                                                &lt;/div&gt;
+                        
+                                                &lt;div class="alert warning"&gt;
+                                                    This is Warning alert!
+                                                &lt;/div&gt;
+                                                </code> -->
+                                                </pre>
+            </div>
+        </div>
+
+
+    </div>    
+
     
 </body>
 </html>

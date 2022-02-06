@@ -1,0 +1,213 @@
+@import url(../shared.css);
+
+
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 230px;
+    background-color: var(--white);
+     box-shadow: 5px 5px 5px -6px black;
+    padding: 10px;
+    text-align: justify;
+    border-radius: 2px;
+}
+
+.badge-card{
+    padding-right: 0;
+}
+.card-title{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.image{
+    margin-left: 0;
+    width: 230px;
+    height: 250px;
+    
+  
+}
+
+.card-badge{
+    display: flex;
+    padding: 5px;
+    width: 70px;
+    height: 20px;
+    background-color: #283593;
+    align-items: center;
+    color: white;
+    font-size: .8rem;
+    margin-left: auto;
+    border-top-left-radius: 10px;
+     border-bottom-left-radius: 10px;
+     box-shadow: 5px 5px 5px -6px black;
+
+}
+
+.price{
+    display: flex;
+    gap: 7px;
+    font-size: .8rem;
+}
+.card-title{
+    font-size: 1rem;
+    font-weight: bold;
+}
+.card-title, .actual-price{
+    color: rgb(141, 131, 131);
+}
+.discounted-price{
+    font-weight: bold;
+}
+
+.discount{
+    color: red;
+
+}
+
+
+
+.add-cart-button{
+     padding: 7px 9px;
+    border: none;
+    border-radius: 2px;
+    background-color: #283593;
+    color: white;
+    
+}
+.dismiss-icon{
+    margin-left: auto;
+}
+
+.card-with-TextOverlay .card-image{
+
+    position: relative;
+  
+}
+
+.overlay-body{
+  padding: 5px;
+    position: absolute;
+    bottom: 5px;
+  color: white;
+    font-size: 1.5rem;
+}
+
+.horizontal-card .card{
+    flex-direction: row;
+    width: auto;
+    
+}
+
+.left-part .image{
+    width: 200px;
+    height: 200px;
+   
+}
+
+.right-part{
+    display: flex;
+    flex-direction: column;
+  gap: 5px;
+}
+
+.horizontal-card .card-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    
+    
+}
+/*
+.card, .badge-card{
+   
+    width: 300px;
+    background-color: var(--white);
+    box-shadow: 5px 5px 5px -6px black;
+    box-shadow: 0 0 2px rgb(189, 180, 180);
+    border-radius: 2px;
+    text-align: justify;
+    position: relative;
+    z-index: 1
+}
+
+.card-container{
+     display: flex;
+    flex-direction: column;
+    gap: 5px;
+     padding: 10px;
+    background-color: var(--white);
+    width: 100%;
+}
+.card-title{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.badge-card{
+ width: 220px;
+}
+
+.price{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    font-size: .8rem;
+}
+
+.badge-card::before{
+    position:absolute;
+    width: 25px;
+    height: 25px;
+    content: ' ';
+    background-color: #283593;
+    top: 2rem;
+    right: -2rem;
+    transform: rotate(45deg);
+    z-index: -1;
+}
+.badge-card::after{
+    position:absolute;
+    width: 92px;
+    height: 24px;
+    content: 'New Arrival';
+    top:1.4rem;
+    background-color: #3949ab;
+    box-shadow: 4px 4px 15px rgba(26, 35, 126, 0.2);
+    right: -2.3rem;
+    text-align: center;
+    color: white;
+} 
+
+.card-title, .actual-price{
+    color: rgb(141, 131, 131);
+}
+.discounted-price{
+    font-weight: bold;
+}
+
+.discount{
+    color: red;
+}
+
+.add-to-cart-button{
+    padding: 7px 9px;
+    border: none;
+    border-radius: 2px;
+background-color: #283593;
+color: white;
+}
+
+.dismiss-icon{
+    margin-left: auto;
+}
+
+.dismiss-card .image{
+    margin-top: 0;
+}
+
+.TextOverlay-card .card-title{
+    position: absolute;
+ 
+} */
