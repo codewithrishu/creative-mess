@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    <!-- font-icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- highlight js -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/a11y-dark.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+
+    <!--css filw -->
+    <link rel="stylesheet" href="image.css">
+    <title>Image</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="square-image-container">
+            <h3>Square Image</h3>
+            <p>you can add square images by adding 'square-image' class</p>
+            <div class="outer-box">
+                <div class="image-container">
+                    <img class="square-image" src="https://picsum.photos/id/237/200/300" alt="image">
+                </div>
+                <div class="image-container">
+                    <img class="square-image" src="https://picsum.photos/id/238/200/300" alt="image">
+                </div>
+            </div>
+            <div class="code-box">
+                <pre>
+                    <code class="language-html"> 
+                         &lt;div class="image-container"&gt;
+                            &lt;img class="square-image" src="image/link" alt="image"&gt;       
+                         &lt;/div&gt;
+                    </code>
+                </pre>
+            </div>
+        </div>
+
+        <div class="circle-image-container">
+            <h3>Circle Image</h3>
+            <p>you can add square images by adding 'circle-image' class</p>
+            <div class="outer-box">
+                <div class="image-container">
+                    <img class="circle-image" src="https://picsum.photos/id/237/200/300" alt="image">
+                </div>
+                <div class="image-container">
+                    <img class="circle-image" src="https://picsum.photos/id/238/200/300" alt="image">
+                </div>
+                
+            </div>
+            <div class="code-box">
+                <pre>
+                    <code class="language-html"> 
+                        &lt;div class="image-container"&gt;
+                            &lt;img class="circle-image" src="image/link" alt="image"&gt;
+                        &lt;/div&gt;
+                    </code>
+                </pre>
+            </div>
+        </div>
+
+        <div class="responsive-image-container">
+            <h3>Responsive Image</h3>
+            <p>you can add square images by adding 'responsive-image' class</p>
+            <div class="outer-box">
+                <div class="responsive-image-box">
+                    <img class="responsive-image" src="https://picsum.photos/id/237/1000/300" alt="image">
+                </div>
+            </div>
+            <div class="code-box">
+                <pre>
+                    <code class="language-html"> 
+                        &lt;div class="responsive-image-box"&gt;
+                            &lt;img class="responsive-image" src="image/link" alt="image"&gt;
+                        &lt;/div&gt;
+                    </code>
+                </pre>
+            </div>
+        </div>
+    </div>  
+</body>
+</html>
