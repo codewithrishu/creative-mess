@@ -1,0 +1,39 @@
+@import url(../shared.css);
+
+:root{
+    --light-blue:rgb(91, 140, 180);
+    --white:#fff;
+}
+
+.simple-navigation, .icon-navigation{
+    width: 100%;
+}
+
+.myNav{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 700px;
+    padding: 10px;
+    background-color: var(--light-blue);
+    border-radius: 2px;
+}
+
+.nav-menu a, .logo a{
+    text-decoration: none;
+    color: var(--white)
+}
+
+.nav-menu {
+     margin-left: auto;
+  
+}
+.nav-menu ul{
+    margin: 8px;
+}
+
+.nav-menu li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 0 5px;
+}
