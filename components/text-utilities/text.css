@@ -1,0 +1,47 @@
+@import url(../shared.css);
+
+
+.lg-para{
+    font-size: 2rem;
+ 
+}
+
+.md-para{
+    font-size: 1.5rem;
+ 
+}
+
+.sm-para{
+    font-size: 1rem;
+     
+}
+
+.coloured-text{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.grey-text{
+    color: grey;
+}
+
+.red-text{
+    color: red;
+}
+
+.green-text{
+    color: green;
+}
+.aligned-text{
+    width: 400px;
+}
+.left-align-text{
+    text-align: left;
+}
+.center-align-text{
+    text-align: center;
+}
+.right-align-text{
+    text-align: right;
+}

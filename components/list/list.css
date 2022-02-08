@@ -1,0 +1,56 @@
+@import url(../shared.css);
+
+:root{
+    --white:#fff;
+    --light-grey:rgb(185, 179, 179);
+    --voilet:blueviolet;
+
+}
+
+.simple-list{
+    display: flex;
+    gap: 3px;
+}
+
+.spaced-list{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--white);
+    flex-basis: 200px;
+    gap: 10px;
+    border: none;
+    
+}
+
+.spaced-list li{
+    font-size: 0.8rem;
+    list-style-type: none;
+    padding: 4px 10px;
+}
+
+.spaced-list li:hover{
+    cursor: pointer;
+    color: var(--voilet);
+}
+
+.list-title{
+    font-size: 1rem;
+    font-weight: bold;
+    border-bottom: 1px solid var(--light-grey);
+    padding: 12px 10px;
+}
+
+
+.stacked-list{
+    padding: 5px;
+    list-style-type: none;
+    display: flex;
+    gap: 5px;
+    text-align: center;
+     background-color: var(--white);
+    border-bottom: 1px solid var(--light-grey);
+}
+
+.list-detail p{
+    margin: 4px;
+}
