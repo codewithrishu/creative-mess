@@ -1,0 +1,227 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- font family -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+        
+        <!-- font-icons -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        
+        <!-- highlight js -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/a11y-dark.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script>
+        
+        <!--css filw -->
+        <link rel="stylesheet" href="button.css">
+        <title>Buttons</title>
+    
+    </head>
+    <body>
+        <div class="container">
+            <div class="Primary-buttons">
+                <h3>Primary Buttons</h3>
+                <p>Primary button can be created by adding button class followed by color varient</p>
+                <div class="outer-box">
+                
+                    <button class="button primary">PRIMARY</button>
+                    <button class="button error">ERROR</button>
+                    <button class="button success">SUCCESS</button>
+                    <button class="button warning">WARNING</button> 
+                </div>
+                <div class="code-box">
+                    <pre>
+                    <code class="language-html"> 
+                    &lt;button class="button primary"&gt;PRIMARY&lt;/button&gt;
+
+                    &lt;button class="button error"&gt;ERROR&lt;/button&gt;
+
+                    &lt;button class="button success"&gt;SUCCESS&lt;/button&gt;
+
+                    &lt;button class="button warning"&gt;WARNING&lt;/button&gt;
+                    </code>
+                    </pre>
+                </div>
+            </div>
+            <div class="outline-buttons">
+                <h3>Outline Buttons</h3>
+                <p>Outline button can be created by adding outline-button class followed by outline-color varient</p>
+                <div class="outer-box">
+            
+                    <button class="outline-button outline-primary">PRIMARY</button>
+                    <button class="outline-button outline-error">ERROR</button>
+                    <button class="outline-button outline-success">SUCCESS</button>
+                    <button class="outline-button outline-warning">WARNING</button>
+            
+                </div>
+                <div class="code-box">
+                    <pre>
+                    <code class="language-html"> 
+                    &lt;button class="outline-button outline-primary"&gt;PRIMARY&lt;/button&gt;    
+
+                    &lt;button class="outline-button outline-error"&gt;ERROR&lt;/button&gt;
+
+                    &lt;button class="outline-button outline-success"&gt;SUCCESS&lt;/button&gt;
+                    
+                    &lt;button class="outline-button outline-warning"&gt;WARNING&lt;/button&gt;
+                    </code>
+                    </pre>
+                </div>
+            </div>
+
+
+            <div class="link-buttons">
+                <h3>Link Buttons</h3>
+                <p>Link button can be created by adding button class followed by button-link class</p>
+                <div class="outer-box">
+            
+                    <button class="button button-link primary">
+                        <a href="">LINK</a>
+                    </button>
+                </div>
+                <div class="code-box">
+                    <pre>
+                    <code class="language-html"> 
+                    &lt;button class="button button-link primary"&gt;
+                        &lt;a href=""&gt;LINK&lt;/a&gt;
+                    &lt;/button&gt;
+                    </code>
+                    </pre>
+                </div>
+            </div>
+
+            <div class="icon-buttons">
+                <h3>Icons Buttons</h3>
+                <p>Icon button can be created by adding button class followed by btn-icon class</p>
+                <div class="outer-box">
+            
+                    <button class="button btn-icon primary">
+                        <span class="material-icons">
+                            save
+                        </span>
+                        SAVE
+                    </button>
+                    <button class="button btn-icon primary">
+                        <span class="material-icons">
+                            favorite
+                        </span>
+                        LIKE
+                    </button>
+                    <button class="button btn-icon primary">
+                        <span class="material-icons">
+                            lock
+                        </span>
+                        LOGIN
+                    </button>
+                    <button class="button btn-icon primary">
+                        <span class="material-icons">
+                            search
+                        </span>
+                        SEARCH
+                    </button>
+            
+                </div>
+                <div class="code-box">
+                    <pre>
+                        <code class="language-html"> 
+                    &lt;button class="button btn-icon primary"&gt;
+                        &lt;span class="material-icons"&gt;
+                            save
+                        &lt;/span&gt;
+                        SAVE
+                    &lt;/button&gt;
+
+                    &lt;button class="button btn-icon primary"&gt;
+                        &lt;span class="material-icons"&gt;
+                            favorite
+                        &lt;/span&gt;
+                        LIKE
+                    &lt;/button&gt;
+
+                    &lt;button class="button btn-icon primary"&gt;
+                        &lt;span class="material-icons"&gt;
+                            lock
+                        &lt;/span&gt;
+                        LOGIN
+                    &lt;/button&gt;
+                    
+                    &lt;button class="button btn-icon primary"&gt;
+                        &lt;span class="material-icons"&gt;
+                            search
+                        &lt;/span&gt;
+                        SEARCH
+                    &lt;/button&gt;
+                    </code>
+                        </pre>
+                </div>
+            </div>
+
+            <div class="floating-buttons">
+                <h3>Floating Buttons</h3>
+                <p>Floting button can be created by adding button class followed by float-icon class</p>
+                <div class="outer-box">
+            
+                    <button class="button float-icon primary">
+                        <span class="material-icons">
+                            save
+                        </span>
+                    </button>
+                    <button class="button float-icon primary">
+                        <span class="material-icons">
+                            favorite
+                        </span>
+                    </button>
+                    <button class="button float-icon primary">
+                        <span class="material-icons">
+                            lock
+                        </span>
+                    </button>
+                    <button class="button float-icon primary">
+                        <span class="material-icons">
+                            search
+                        </span>
+                    </button>
+            
+                </div>
+                <div class="code-box">
+                    <pre>
+                    <code class="language-html"> 
+                    &lt;div class="badge"&gt;
+                        &lt;img class="avatar" src="https://picsum.photos/200/300" alt=""&gt;   
+                        &lt;div class="online"&gt;&lt;/div&gt;
+                    &lt;/div&gt;
+
+                    &lt;button class="button float-icon primary"&gt;
+                        &lt;span class="material-icons"&gt;
+                            save
+                        &lt;/span&gt;
+                    &lt;/button&gt;
+                    &lt;button class="button float-icon primary"&gt;
+                        &lt;span class="material-icons"&gt;
+                            favorite
+                        &lt;/span&gt;
+                    &lt;/button&gt;
+                    &lt;button class="button float-icon primary"&gt;
+                        &lt;span class="material-icons"&gt;
+                            lock
+                        &lt;/span&gt;
+                    &lt;/button&gt;
+                    &lt;button class="button float-icon primary"&gt;
+                        &lt;span class="material-icons"&gt;
+                            search
+                        &lt;/span&gt;
+                    &lt;/button&gt;
+                    </code>
+                    </pre>
+                </div>
+            </div>
+        </div>
+        
+    </body>
+    </html>
