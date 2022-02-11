@@ -1,0 +1,48 @@
+@import url(../shared.css);
+
+:root{
+    --green:green;
+    --red:red;
+    --grey:gey;
+}
+
+.label-input-container .outer-box{
+    flex-direction: column;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    margin-top: 10px;
+    width: 100%;
+    padding: 0 2px;
+}
+
+.inputs input{
+  padding: 8px 0px;
+  margin: 8px 0;
+  box-sizing: border-box
+}
+
+.success input{
+    border: 1px solid var(--green) ;
+}
+
+.success label{
+    color:var(--green)
+}
+.error input{
+    border: 1px solid var(--red) ;
+}
+.error label, .error-msg{
+    color: var(--red);
+}
+
+.radio{
+    margin-left: 10px;
+}
+
+.disabled{
+    color: var(--grey);
+}
