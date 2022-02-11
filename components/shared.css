@@ -1,6 +1,8 @@
 :root{
 --avatar-background:#f5f7f9;
 --border:rgb(185, 180, 180);
+--white:#fff;
+
 
 }
 
@@ -22,6 +24,10 @@
     border-radius: 10px;
     border: 1px solid var(--border);
     padding: 20px 40px;
+}
+
+.img{
+    margin-left: 10px;
 }
 
 
