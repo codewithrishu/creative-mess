@@ -1,27 +1,27 @@
 @import url(../shared.css);
 
+
+.image-container, .square-image, .circle-image {
+    width: 8.75rem;
+    height: 8.75rem;
+}
+
 .image-container{
-    width: 140px;
-    height: 140px;
     margin-left: 10px;
 }
 
 .square-image{
-    width: 140px;
-    height: 140px;
     object-fit: cover;
 }
 
 .circle-image{
-    width: 140px;
-    height: 140px;
     border-radius: 50%;
     object-fit: cover;
 }
 
 .responsive-image-box{
-    width: 500px;
-    height: 400px;
+    width: 31.25rem;
+    height: 25rem;
 }
 
 .responsive-image{
