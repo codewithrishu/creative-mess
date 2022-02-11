@@ -2,7 +2,7 @@
 
 .doc-container{
     display: grid;
-    padding: 0px 10rem;
+    padding: 0 10rem;
     grid-template-areas: 
     "nav nav nav nav nav"
     "listing component component component component";
@@ -12,15 +12,11 @@
     grid-area: nav;
 }
 
-
 .doc-listing{
     grid-area: listing;
-    padding: 2rem;
-   
+    padding: 2rem; 
 }
-
-.components{
-    
+.components{ 
     grid-area: component;
     height: 100vh;
     width: 100%;   
