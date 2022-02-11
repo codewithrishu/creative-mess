@@ -1,0 +1,121 @@
+@import url(../shared.css);
+
+:root{
+    --badge-blue:#283593;
+    --black:black;
+    --red:red;
+    --light-grey:rgb(141, 131, 131);
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 14.38rem;
+    background-color: var(--white);
+    box-shadow: 5px 5px 5px -6px var(--black);
+    padding: 10px;
+    text-align: justify;
+    border-radius: 2px;
+}
+
+.badge-card{
+    padding-right: 0;
+}
+
+.card-title{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.image{
+    margin-left: 0;
+    width: 14.38rem;
+    height: 14.63rem;
+}
+
+.card-badge{
+    display: flex;
+    padding: 5px;
+    width: 4.38rem;
+    height: 1.25rem;
+    background-color: var(--badge-blue);
+    align-items: center;
+    color: var(--white);
+    font-size: .8rem;
+    margin-left: auto;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 5px 5px 5px -6px var(--black);
+
+}
+
+.price{
+    display: flex;
+    gap: 7px;
+    font-size: .8rem;
+}
+
+.card-title{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.card-title, .actual-price{
+    color: var(--light-grey);
+}
+
+.discounted-price{
+    font-weight: bold;
+}
+
+.discount{
+    color: var(--red);
+}
+
+
+.add-cart-button{
+     padding: 7px 9px;
+    border: none;
+    border-radius: 2px;
+    background-color: var(--badge-blue);
+    color: var(--white);
+    
+}
+.dismiss-icon{
+    margin-left: auto;
+}
+
+.card-with-TextOverlay .card-image{
+    position: relative;
+}
+
+.overlay-body{
+    padding: 5px;
+    position: absolute;
+    bottom: 5px;
+    color: var(--white);
+    font-size: 1.5rem;
+}
+
+.horizontal-card .card{
+    flex-direction: row;
+    width: auto; 
+}
+
+.left-part .image{
+    width: 12.5rem;
+    height: 12.5rem;
+}
+
+.right-part{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.horizontal-card .card-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
