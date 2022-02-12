@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
 
 :root{
     --primaryColor:#C19898;
@@ -17,7 +19,7 @@ body{
     font-family: 'Quicksand', sans-serif;
 
 }
-.container{
+.landing-page-container{
  display: flex;
  flex-direction: column;
  padding: 0px 10rem;
@@ -36,12 +38,15 @@ body{
     color: var(--primaryColor);
     padding-right: 1rem;
 }
-
 .logo{
-    display: flex;
-    font-family: 'Quicksand', sans-serif;
-   
+    font-family: 'Prata', serif;
 }
+.logo a{
+    display: flex;
+    text-decoration: none;
+    color: inherit;
+}
+
 .logo:hover{
     cursor: pointer;
 }
@@ -121,17 +126,18 @@ body{
      color: var(--light);
 }
 
-
-
-
 /* footer css */
-.footer{
+.info-footer{
    padding: 10px 0;
    margin-top: auto;
    text-align: center;
    font-size: 1rem;
 }
-
+.info-footer a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: var(--primaryColor);
+}
 
 /* media queries */
 @media only screen and (max-width: 800px){
@@ -154,7 +160,7 @@ body{
      padding: 10rem 5rem;
 
      }
-     .container{
+     .landing-page-container{
        padding: 0;
    }
  }

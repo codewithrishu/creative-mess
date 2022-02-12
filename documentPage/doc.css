@@ -5,7 +5,7 @@
     padding: 0 10rem;
     grid-template-areas: 
     "nav nav nav nav nav"
-    "listing component component component component";
+    "listing component component component ..";
 }
 
 .nav-bar{
@@ -14,7 +14,8 @@
 
 .doc-listing{
     grid-area: listing;
-    padding: 2rem; 
+    padding: 0 2rem; 
+    width: 17rem;
 }
 .components{ 
     grid-area: component;
@@ -50,25 +51,15 @@
 
     .doc-container{
         grid-template-areas: 
-        "nav"
-        "component";
-    }
-
-    .doc-listing{
-        display: none;
-    }
-}
-
-
-@media only screen and (max-width:450px){
-
-    .doc-container{
-        grid-template-areas: 
-        "nav  "
+       "nav "
         "component ";
+         padding: 10px;
+
     }
 
     .doc-listing{
         display: none;
     }
 }
+
+

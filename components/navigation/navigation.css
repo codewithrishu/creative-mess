@@ -9,30 +9,29 @@
     width: 100%;
 }
 
-.myNav{
+.comp-mynav{
     display: flex;
     align-items: center;
     width: 100%;
-    max-width: 43.75rem;
     padding: 10px;
     background-color: var(--light-blue);
     border-radius: 2px;
 }
 
-.nav-menu a, .logo a{
+.comp-mynav-menu a, .comp-mynav-logo a{
     text-decoration: none;
     color: var(--white)
 }
 
-.nav-menu {
+.comp-mynav-menu {
      margin-left: auto;
   
 }
-.nav-menu ul{
+.comp-mynav-menu ul{
     margin: 8px;
 }
 
-.nav-menu li{
+.comp-mynav-menu li{
     list-style-type: none;
     display: inline-block;
     padding: 0 5px;

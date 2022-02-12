@@ -1,21 +1,26 @@
+@import url(../landingpage/landingpage.css);
+@import url(../documentPage/doc.css);
+
 :root{
 --avatar-background:#f5f7f9;
 --border:rgb(185, 180, 180);
 --white:#fff;
+--dark:#141412;
 }
-
+body{
+    font-size: 1.2rem;
+}
 .container{
+    width: 100%;
     display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
+    flex-flow: column;
     gap: 10px;  
 }
 
 
 .outer-box{
     display: flex;
+   
     justify-content: center;
     align-items: center;
     background-color: var(--avatar-background);
@@ -24,10 +29,27 @@
     padding: 20px 40px;
 }
 
-/* img{
+.icon-gap img{
     margin-left: 10px;
-} */
+}
 
 h3{
     font-weight: bolder;
+}
+
+.nav-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem 0;
+    border-top: 1px solid grey;
+}
+.nav-footer a{
+    text-decoration: none;
+    color: var(--dark);
+}
+@media only screen and (max-width: 700px){
+    body{
+        font-size: 1rem;
+    }
 }
