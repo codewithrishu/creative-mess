@@ -1,0 +1,74 @@
+@import url(../landingpage/landingpage.css);
+
+.doc-container{
+    display: grid;
+    padding: 0 10rem;
+    grid-template-areas: 
+    "nav nav nav nav nav"
+    "listing component component component component";
+}
+
+.nav-bar{
+    grid-area: nav;
+}
+
+.doc-listing{
+    grid-area: listing;
+    padding: 2rem; 
+}
+.components{ 
+    grid-area: component;
+    height: 100vh;
+    width: 100%;   
+}
+
+.list-heading{
+    font-size: 1.4rem;
+    font-weight: bold;
+    border-bottom: 1px solid grey;
+    padding: 14px 0;
+    margin: 5px 0;
+    color: var(--primaryColor);
+}
+
+.doc-list{
+    list-style-type: none;
+    padding: 10px 0;
+    font-size: 1.3rem;
+}
+
+.doc-list a{
+    text-decoration: none;
+    color: var(--secondoryColor);
+}
+
+.doc-list a:hover{
+    color: var(--dark);
+}
+
+@media only screen and (max-width:700px){
+
+    .doc-container{
+        grid-template-areas: 
+        "nav"
+        "component";
+    }
+
+    .doc-listing{
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width:450px){
+
+    .doc-container{
+        grid-template-areas: 
+        "nav  "
+        "component ";
+    }
+
+    .doc-listing{
+        display: none;
+    }
+}
