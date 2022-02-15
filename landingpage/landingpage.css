@@ -38,35 +38,35 @@ body{
     color: var(--primaryColor);
     padding-right: 1rem;
 }
-.logo{
+.nav-bar .logo{
     font-family: 'Prata', serif;
 }
-.logo a{
+.nav-bar .logo a{
     display: flex;
     text-decoration: none;
     color: inherit;
 }
 
-.logo:hover{
+.nav-bar .logo:hover{
     cursor: pointer;
 }
-.menu{
+.nav-bar .menu{
     margin-left: auto;
 }
-.menu .lists{
+.nav-bar .menu .lists{
     display: inline-block;
     padding-left: 1rem;
 }
 
 
-.menu a{
+.nav-bar .menu a{
     text-decoration: none;
     color: var(--dark);
 
 }
 
 /* header css */
-.header{
+.landingpage-header{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -76,13 +76,13 @@ body{
     text-align: center;
 }
 
-.header h2{
+.landingpage-header .header h2{
     font-size: 3.5rem;
     margin: 0;
 
 }
 
-.header p{
+.landingpage-header .header p{
     font-size: 1.5rem;
     color: var(--secondoryColor)
   
@@ -145,7 +145,7 @@ body{
     font-size: 60%;
    }
    
-   .header{
+   .landingpage-header{
      padding: 10rem 5rem;
 
      }
@@ -156,7 +156,7 @@ body{
      font-size: 35%;
     }
 
-    .header{
+    .landingpage-header{
      padding: 10rem 5rem;
 
      }
