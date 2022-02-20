@@ -20,7 +20,8 @@
 .components{ 
     grid-area: component;
     height: 100vh;
-    width: 100%;   
+    
+    padding: 1rem;  
 }
 
 .list-heading{
@@ -59,6 +60,18 @@
 
     .doc-listing{
         display: none;
+    }
+
+    .components h3{
+        font-size: 2.5rem;
+    }
+
+    .components p{
+        font-size: 2rem;
+    }
+
+    .headings h3{
+        font-size: 1.3em;
     }
 }
 

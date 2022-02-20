@@ -73,6 +73,7 @@ body{
     align-items: center;
     padding: 12rem;
     padding-bottom: 2.5rem;
+     font-size: 1.8rem;
     text-align: center;
 }
 
@@ -131,7 +132,7 @@ body{
    padding: 10px 0;
    margin-top: auto;
    text-align: center;
-   font-size: 1rem;
+   font-size: 1.3rem;
 }
 .info-footer a{
     text-decoration: none;

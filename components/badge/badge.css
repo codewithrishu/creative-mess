@@ -16,8 +16,8 @@
    
 }
 .online, .offline, .dnd{
-    width: 8px;
-    height: 8px;
+    width: 0.5rem;
+    height: 0.5rem;
     border-radius: 50%;
     position:absolute;
     border: 1.5px solid #fff;
@@ -38,8 +38,8 @@
 }
 
 .number{
-    width: 10px;
-    height: 10px;
+    width: 0.75rem;
+    height: 0.75rem;
     padding: 2px;
     border-radius: 50%;
     background-color: rgb(0, 140, 255);
@@ -48,5 +48,5 @@
     text-align: center;
     top: 0;
     right: 0;
-    font-size: 8px;
+    font-size: 0.7rem;
 }
