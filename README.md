@@ -35,4 +35,10 @@
 ### Live Link for the site:
 [creative-mess-ui.netlify.app](creative-mess-ui.netlify.app)
 
-### Demo
+### Preview
+
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/77292616/154858156-8fd4fe37-eeb4-4485-960c-74f0aa4a9891.gif)
+
+<img width="1440" alt="Screenshot 2022-02-21 at 12 01 51 AM" src="https://user-images.githubusercontent.com/77292616/154858216-e16c4733-45dd-4081-bb7e-f68bdb22921e.png">
+
+<img width="1440" alt="Screenshot 2022-02-21 at 12 01 59 AM" src="https://user-images.githubusercontent.com/77292616/154858223-47127a06-450d-4a0b-b3fa-c6a2ccc88894.png">
