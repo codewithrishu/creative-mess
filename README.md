@@ -1,6 +1,6 @@
 <div align="center">
 
-  # [Creative Mess](creative-mess-ui.netlify.app)
+  # Creative Mess
   Easy | customizable |  accessible
   
 </div>  
