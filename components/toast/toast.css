@@ -1,0 +1,29 @@
+ @import url(../shared.css);
+
+    :root{
+        --primary-alert-color:#4091d7;
+        --error-alert-color: #ED4F32;
+        --success-alert-color:#2d884d;
+        --warning-alert-color:#fecf6d;
+        --white:#fff;
+    }
+
+    .outer-box{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+ .toast-body h5,  .toast-body p{
+     margin: 0;
+     padding: 0;
+ }
+    .toast-body{
+        border-radius: 5px;
+        background-color: var(--error-alert-color);
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        gap: 10px;
+        color: var(--white);
+        padding: 10px;
+    }
