@@ -1,0 +1,42 @@
+    @import url(../shared.css);
+
+    :root{
+        --error-alert-color: #ED4F32;
+        --warning-alert-color:#fecf6d;
+        --white:#fff;
+    }
+  .outer-box{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+ 
+    .modal-box{
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+        background-color: var(--white);
+        padding: 10px 20px;
+        border: none;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+         z-index: 5;  
+    }
+
+  .modal-footer{
+      display: flex;
+      justify-content: flex-end;
+  }
+
+  .modal-footer button{
+      padding: 5px 10px;
+      border: none;
+      margin: 2px;
+      color: var(--white);
+      
+  }
+  .cncl{
+      background-color:var(--warning-alert-color) ;
+  }
+  .delete{
+      background-color: var(--error-alert-color);
+  }
