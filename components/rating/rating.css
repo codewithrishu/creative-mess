@@ -1,0 +1,22 @@
+    @import url(../shared.css);
+
+    :root{
+    
+        --default:grey;
+        --rating:#fecf6d;
+      
+    }
+
+    .outer-box{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .rating-box span{
+        color: var(--default);
+    }
+
+    .rating-box span:hover{
+        color: var(--rating);
+        cursor: pointer;
+    }
